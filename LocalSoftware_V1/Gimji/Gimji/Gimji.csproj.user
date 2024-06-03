@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="GUI\Home\uc_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Home\uc_Detail_Table.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Home\uc_Table.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Kitchen\uc_Kitchen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Kitchen\uc_listFood.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Kitchen\uc_orderConfirm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Login_Register\Main_Login_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Login_Register\uc_Forgot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Login_Register\uc_Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Login_Register\uc_Register.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\CustomerManagement\uc_customer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\CustomerManagement\uc_customerManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\Inventory Management\uc_inventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\Inventory Management\uc_inventoryManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\OrderManagement\uc_listOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\OrderManagement\uc_OrderMangement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\ProductManagement\uc_product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\ProductManagement\uc_productManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\RevenueManagement\uc_revenueManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\SaleManagement\uc_sale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\SaleManagement\uc_SaleManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\ShiftManagement\uc_shift.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\ShiftManagement\uc_shiftManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\ShiftManagement\uc_staffShift.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\StaffManagement\uc_staff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\StaffManagement\uc_staffManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Management\uc_Management.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Menu\uc_Menu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Menu\uc_MonAnCart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Menu\uc_MonAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Order\uc_Order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Order\uc_orderList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\PayMent\uc_credirCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\PayMent\uc_MonAn_Paymentcs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\PayMent\uc_Payment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\PayMent\uc_qrCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
