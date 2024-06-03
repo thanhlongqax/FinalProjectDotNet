@@ -1,0 +1,48 @@
+name: dockercompose14113490765568138775
+services:
+  db:
+    container_name: db
+    environment:
+      POSTGRES_DB: Gimji
+      POSTGRES_PASSWORD: "12345678"
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+  gimji:
+    build:
+      context: E:\Classroom\C#\CNDOTNET_BACKEND\Gimji
+      dockerfile: Gimji/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: Host=db;Port=5432;Database=Gimji;Username=postgres;Password=12345678
+    image: gimji
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: E:\Classroom\C#\CNDOTNET_BACKEND\Gimji\Gimji\images
+        target: /app/images
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose14113490765568138775_default
