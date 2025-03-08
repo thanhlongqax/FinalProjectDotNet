@@ -1,7 +1,6 @@
 # 🍽 Gimji Restaurant Management Website (English Version) 
 
-📌 *[Xem bản tiếng Việt](#-README.vn.md)*
-
+📌 *[Xem bản tiếng Việt](README_vn.md)*
 ## 📌 Introduction
 **Gimji Restaurant Management** is a modern restaurant management system that automates processes, from customers and table reservations to product categories. The system provides a user-friendly interface for both customers and administrators.
 

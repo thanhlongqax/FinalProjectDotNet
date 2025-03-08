@@ -1,5 +1,6 @@
 # 🍽 Gimji Restaurant Management Website
 
+📌 *[Xem bản tiếng anh](README.md)*
 ## 📌 Giới thiệu
 **Gimji Restaurant Management** là một hệ thống quản lý nhà hàng hiện đại, giúp tự động hóa các quy trình quản lý, từ khách hàng, bàn ăn đến danh mục món ăn. Hệ thống cung cấp giao diện thân thiện, dễ sử dụng cho cả người dùng và quản trị viên.
 
