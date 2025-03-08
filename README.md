@@ -68,9 +68,9 @@ docker-compose up -d
 📌 *[Guide video link (if available)]*
 
 ## 👤 Author
-**Long**
+**Thành Long**
 
-📧 **Contact**: [Your Email]
+📧 **Contact**: thanhlongndp@gmail.com
 
 ## 📜 License
 This project is licensed under the **MIT** license.
