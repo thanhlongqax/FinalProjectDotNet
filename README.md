@@ -1,78 +1,80 @@
-# 🍽 Gimji Restaurant Management Website
+# 🍽 Gimji Restaurant Management Website (English Version) 
 
-## 📌 Giới thiệu
-**Gimji Restaurant Management** là một hệ thống quản lý nhà hàng hiện đại, giúp tự động hóa các quy trình quản lý, từ khách hàng, bàn ăn đến danh mục món ăn. Hệ thống cung cấp giao diện thân thiện, dễ sử dụng cho cả người dùng và quản trị viên.
+📌 *[Xem bản tiếng Việt](#-README.vn.md)*
 
-## 🛠️ Công nghệ sử dụng
+## 📌 Introduction
+**Gimji Restaurant Management** is a modern restaurant management system that automates processes, from customers and table reservations to product categories. The system provides a user-friendly interface for both customers and administrators.
+
+## 🛠️ Technologies Used
 ### 💻 Frontend
-- **ReactJS** + **Vite**: Hiệu suất cao, tối ưu hóa tốc độ tải trang.
-- **Bootstrap** & **Tailwind CSS**: Thiết kế giao diện linh hoạt, thân thiện với người dùng.
+- **ReactJS** + **Vite**: High performance, optimized for fast loading.
+- **Bootstrap** & **Tailwind CSS**: Flexible and user-friendly design.
 
 ### 🖥 Backend
-- **.NET Core API**: Cung cấp các API mạnh mẽ, bảo mật cho hệ thống.
+- **.NET Core API**: Secure and efficient API for system operations.
 
 ### 🗄️ Database
-- **PostgreSQL**: Lưu trữ dữ liệu hiệu quả, phù hợp với ứng dụng lớn.
-- **Docker & Docker Compose**: Đóng gói và triển khai dễ dàng.
+- **PostgreSQL**: Efficient data storage for large applications.
+- **Docker & Docker Compose**: Easy deployment and containerization.
 
-## ✨ Tính năng
+## ✨ Features
 
-### 🔹 Phía Người Dùng
-✔ Đăng nhập, đăng ký, quên mật khẩu (có gửi email xác nhận).
+### 🔹 User Side
+✔ Login, register, password recovery (with email confirmation).
 <br>
-✔ Xem danh sách sản phẩm, danh mục món ăn.
+✔ View product list and categories.
 <br>
-✔ Đặt bàn trực tuyến.
+✔ Online table reservation.
 
-### 🔹 Phía Quản Trị Viên
-✔ Quản lý tài khoản nhân viên, tài khoản quản trị.
+### 🔹 Admin Side
+✔ Manage employee and admin accounts.
 <br>
-✔ Quản lý khách hàng.
+✔ Manage customers.
 <br>
-✔ Quản lý danh mục món ăn (Category).
+✔ Manage product categories.
 <br>
-✔ Quản lý sản phẩm (Product).
+✔ Manage products.
 <br>
-✔ Quản lý bàn ăn.
+✔ Manage table reservations.
 
-## 🚀 Cách chạy ứng dụng
-### 1️⃣ Cài đặt các công cụ cần thiết
-- **Reactjs** (cho frontend)
-- **.NET CORE SDK** (cho backend)
-- **Docker & Docker Compose** (cho database)
+## 🚀 How to Run the Application
+### 1️⃣ Install Required Tools
+- **React js** (for frontend)
+- **.NET CORE SDK** (for backend)
+- **Docker & Docker Compose** (for database)
 
-### 2️⃣ Cài đặt và chạy Backend
+### 2️⃣ Install and Run Backend
 ```sh
 cd backend
 dotnet restore
 dotnet run
 ```
 
-### 3️⃣ Cài đặt và chạy Frontend
+### 3️⃣ Install and Run Frontend
 ```sh
 cd frontend
 npm install
 npm run dev
 ```
 
-### 4️⃣ Khởi động Database bằng Docker
+### 4️⃣ Start Database with Docker
 ```sh
 docker-compose up -d
 ```
 
-## 📷 Giao diện ứng dụng
-📌 *Đang cập nhật hình ảnh...*
+## 📷 Application Interface
+📌 *Images coming soon...*
 
-## 🎥 Xem video hướng dẫn chi tiết
-📌 *[Link video hướng dẫn (nếu có)]*
+## 🎥 Watch Detailed Guide
+📌 *[Guide video link (if available)]*
 
-## 👤 Tác Giả
-**Thành Long**
+## 👤 Author
+**Long**
 
-📧 **Liên hệ**: thanhlongndp@gmail.com
+📧 **Contact**: [Your Email]
 
-## 📜 Giấy Phép
-Dự án được phát hành theo giấy phép **MIT**.
+## 📜 License
+This project is licensed under the **MIT** license.
 
 ---
 🚀 *Made with ❤️ by Long*
