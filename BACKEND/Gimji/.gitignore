@@ -1,0 +1,22 @@
+# Build results
+bin/
+obj/
+out/
+
+# NuGet
+packages/
+project.lock.json
+global.json
+
+# Logs & Debug
+*.log
+*.tlog
+*.pdb
+*.svclog
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.sln.docstates
